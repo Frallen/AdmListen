@@ -1,0 +1,31 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .form {
+    max-width: 230px;
+  }
+}
+.tableBtnB {
+  color: #1890ff;
+  cursor: pointer;
+}
+.tableBtnR {
+  color: #fa541c;
+  cursor: pointer;
+}
+.TabButt {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    .exit {
+      margin-top: 1rem;
+    }
+  }
+}
