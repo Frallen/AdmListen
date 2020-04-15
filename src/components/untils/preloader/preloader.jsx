@@ -2,7 +2,7 @@ import React from "react";
 import { Spin } from "antd";
 import classes from "./preloader.module.scss";
 
-let Preloader = () => {
+export const Preloader = () => {
   return (
     <div className={classes.PreloaderBox}>
       <Spin size="large" />
@@ -10,4 +10,4 @@ let Preloader = () => {
   );
 };
 
-export default Preloader
+

@@ -32,6 +32,7 @@ let Box = (props) => {
         component={AllInput}
         name="index"
         label="Индекс"
+        maxLength="6"
         validate={[required, OnlyNum, MinLengthIndex]}
       ></Field>
       <Field
@@ -44,6 +45,7 @@ let Box = (props) => {
       <Field
         component={AllInput}
         label="Телефон"
+        maxLength="11"
         name="Tel"
         validate={[required, OnlyNum, MinLengthTel]}
       ></Field>
